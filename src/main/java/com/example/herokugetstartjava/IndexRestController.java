@@ -15,7 +15,7 @@ public class IndexRestController {
      *
      * @return {@code "Hello World!"}
      */
-    @GetMapping(path = "/", consumes = MediaType.TEXT_PLAIN_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
+    @GetMapping(path = "/", produces = MediaType.TEXT_PLAIN_VALUE)
     public String firstMessage() {
         return "Hello World!";
     }
