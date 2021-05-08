@@ -39,3 +39,6 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+bootRun  {
+    jvmArgs = ['-Dspring.profiles.active=default']
+}
